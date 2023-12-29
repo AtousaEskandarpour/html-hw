@@ -1,0 +1,71 @@
+body {
+    background-color: #001c30;
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+button {
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px 3px 5px 3px;
+
+}
+button:hover {
+    background-color: #001c30;
+}
+.pinky_class_buttons{
+    background-color: #176B87;
+}
+.ring_class_buttons{
+    background-color: #64CCC5;
+}
+.middle_class_buttons{
+    background-color: #FF9EAA;
+}
+.pointer_class_buttons1{
+    background-color: #DAFFFB
+}
+.pointer_class_buttons2{
+    background-color: #FFD0D0   
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(245,255,250);
+    font-size: 2xl;
+   
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Shift_size {
+    width: 110px;
+}
+#Tab_size {
+    width: 70px;
+}
+#Caps_size {
+    width: 90px;
+}
+#Enter_size {
+    width: 80px;
+}
+#BackSpace_size {
+    width: 75px;
+}
